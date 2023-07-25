@@ -135,8 +135,7 @@ const App = () => {
                                 <img src="https://sialifehospital.com/wp-content/uploads/2021/04/testimonial-1.png" class="card-img-top" alt="..."/>
                             <div class="card-body">
                               <div class="text-section">
-                                        <h5 class="card-title">{estudiante.nombre}</h5>
-                                        <p class="card-text" style={{ color: '#000' }}>Calificacion 1: {estudiante.semestreUno}<br />Calificacion 2: {estudiante.semestreDos}
+                                        <p class="card-text" style={{ color: '#000' }}>Nombre: {estudiante.nombreEstudiante} <br />Calificacion 1: {estudiante.semestreUno}<br />Calificacion 2: {estudiante.semestreDos}
                                             <br />Calificacion 3: {estudiante.semestreTres}
                                             <br />Calificacion Final: {calcularCalificacionFinal(estudiante)}</p>
                               </div>
